@@ -2,7 +2,12 @@
 
 @import 'gaia';
 
+$my-bg: #ffffff;
+$my-text: #000000; 
+$my-highlight: #0066cc;
+
 section {
+    @include color-scheme($my-bg, $my-text, $my-highlight);
     font-family: 'Times New Roman', 'DFKai-SB';
     color: black;
 }

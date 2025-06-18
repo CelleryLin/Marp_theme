@@ -5,8 +5,7 @@
 section {
     font-family: 'Times New Roman', 'DFKai-SB';
     color: black;
-    width: 960px;
-    height: 720px;
+    background-color: white;
 }
 
 img[alt~="center"] {

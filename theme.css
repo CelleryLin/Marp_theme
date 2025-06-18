@@ -1,0 +1,63 @@
+/* @theme my-theme */
+
+@import 'gaia';
+
+section {
+    font-family: 'Times New Roman', 'DFKai-SB';
+    color: black;
+    width: 960px;
+    height: 720px;
+}
+
+img[alt~="center"] {
+    display: block;
+    margin: 0 auto;
+}
+table {
+    width: 100%;
+    font-size: 24px;
+    margin-top: 0px;
+}
+thead th {
+    background-color: rgb(130, 165, 179) !important;
+    color: white !important;
+}
+tr {
+    background-color: white !important;
+
+}
+td {
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+}
+.caption {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+.footnote {
+    position: absolute;
+    font-style: italic;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    padding: 0 80px;
+    text-align: justify;
+    font-size: 0.7em;
+}
+
+.footnote::before {
+    content: "";
+    display: block;
+    margin-bottom: 8px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    border-top: 1px solid #000;
+}

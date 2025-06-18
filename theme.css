@@ -5,7 +5,7 @@
 section {
     font-family: 'Times New Roman', 'DFKai-SB';
     color: black;
-    background-color: white !important;
+    background-color: white;
 }
 
 img[alt~="center"] {
@@ -31,7 +31,8 @@ td {
 h1 {
     font-size: 50px;
 }
-.caption {
+
+caption {
     display: block;
     text-align: center;
     font-style: italic;
@@ -40,7 +41,7 @@ h1 {
     margin-bottom: 5px
 }
 
-.footnote {
+footnote {
     position: absolute;
     font-style: italic;
     bottom: 30px;
@@ -51,7 +52,7 @@ h1 {
     font-size: 0.7em;
 }
 
-.footnote::before {
+footnote::before {
     content: "";
     display: block;
     margin-bottom: 8px;

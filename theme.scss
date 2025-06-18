@@ -10,6 +10,7 @@ section {
     @include color-scheme($my-bg, $my-text, $my-highlight);
     font-family: 'Times New Roman', 'DFKai-SB';
     color: black;
+    background-color: white; !important;
 }
 
 img[alt~="center"] {
